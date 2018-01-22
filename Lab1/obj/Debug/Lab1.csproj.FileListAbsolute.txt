@@ -1,0 +1,7 @@
+c:\users\skeletor\source\repos\Lab1\Lab1\bin\Debug\Lab1.exe.config
+c:\users\skeletor\source\repos\Lab1\Lab1\bin\Debug\Lab1.exe
+c:\users\skeletor\source\repos\Lab1\Lab1\bin\Debug\Lab1.pdb
+c:\users\skeletor\source\repos\Lab1\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+c:\users\skeletor\source\repos\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+c:\users\skeletor\source\repos\Lab1\Lab1\obj\Debug\Lab1.exe
+c:\users\skeletor\source\repos\Lab1\Lab1\obj\Debug\Lab1.pdb
