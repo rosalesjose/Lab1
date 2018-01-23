@@ -51,15 +51,14 @@ namespace Lab1
 
 
                 //Repeat program
-
-                bool continueprogram;
-                continueprogram = Console.ReadLine().ToLower()[0].Equals('y');
+                               
 
                 char DoAgain = char.Parse(Console.ReadLine());
 
                 if (DoAgain == 'y' || DoAgain == 'Y')
                 {
                     runprogram = true;
+                    Console.Clear();
                 }
                 else
                 {
