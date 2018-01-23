@@ -55,7 +55,9 @@ namespace Lab1
                 bool continueprogram;
                 continueprogram = Console.ReadLine().ToLower()[0].Equals('y');
 
-                if (continueprogram)
+                char DoAgain = char.Parse(Console.ReadLine());
+
+                if (DoAgain == 'y' || DoAgain == 'Y')
                 {
                     runprogram = true;
                 }
