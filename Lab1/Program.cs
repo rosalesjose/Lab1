@@ -14,10 +14,8 @@ namespace Lab1
             while (runprogram)
             {
                 //Input
-                double Width;
-                double Length;
-                double Height;
-
+                double Width, Length, Height;
+                
                 Console.WriteLine("Please enter the width");
                 Width = double.Parse(Console.ReadLine());
 
@@ -30,7 +28,6 @@ namespace Lab1
                 //Process
                 double Area;
                 Area = Width * Length;
-
 
                 double Perimeter;
                 Perimeter = (Width * 2) + (Length * 2);
@@ -49,16 +46,14 @@ namespace Lab1
 
                 Console.WriteLine("Continue? (y/n)");
 
-
-                //Repeat program
-                               
+                //Repeat program                               
 
                 char DoAgain = char.Parse(Console.ReadLine());
 
                 if (DoAgain == 'y' || DoAgain == 'Y')
                 {
                     runprogram = true;
-                    Console.Clear();
+                    Console.Clear(); 
                 }
                 else
                 {
