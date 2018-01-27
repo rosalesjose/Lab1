@@ -26,28 +26,20 @@ namespace Lab1
                 Height = double.Parse(Console.ReadLine());
 
                 //Process
-                double Area;
-                Area = Width * Length;
-
-                double Perimeter;
-                Perimeter = (Width * 2) + (Length * 2);
-
-                double Volume;
-                Volume = Area * Height;
-
+                double MyArea = GetArea(Width, Length);
+                double MyPerimeter = GetPerimeter(Width,Length);
+                double MyVolume = GetVolume(Width, Length, Height);
 
                 //Output
+                Console.WriteLine("Area: {0}", MyArea);
 
-                Console.WriteLine("Area: {0}", Area);
+                Console.WriteLine("Permieter: {0}", MyPerimeter);
 
-                Console.WriteLine("Permieter: {0}", Perimeter);
-
-                Console.WriteLine("Height: {0}", Height);
+                Console.WriteLine("Volume: {0}", MyVolume);
 
                 Console.WriteLine("Continue? (y/n)");
 
-                //Repeat program                               
-
+                //Repeat program        
                 char DoAgain = char.Parse(Console.ReadLine());
 
                 if (DoAgain == 'y' || DoAgain == 'Y')
@@ -60,7 +52,29 @@ namespace Lab1
                     runprogram = false;
                 }
             }
-            
+        }
+        //public static string ReadUserInput(string UserPrompt)
+        //{
+
+        //}
+
+        public static double GetArea (double Width, double Length)
+        {
+            //double Area = Width* Length;           
+            //return Area;
+            return Length * Width;
+        }
+        
+        public static double GetPerimeter (double Width, double Length)
+        {
+            double Perimeter = (Width * 2) + (Length * 2);
+            return Perimeter;
+        }
+
+        public static double GetVolume (double Width, double Length, double Height)
+        {
+            double Volume = (Width * Length) * Height;
+            return Volume;
         }
     }
 }
